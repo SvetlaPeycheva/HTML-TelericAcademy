@@ -1,0 +1,162 @@
+<!--HW Definition - https://github.com/TelerikAcademy/HTML/tree/master/5.%20HTML%20Forms%20and%20Frames -->
+
+<!DOCUMENT type>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style>
+	body {font-family: calibri}
+		img {
+			vertical-align: middle;
+			margin: 0px 0px 0px 5px
+		}
+		
+	    th { font-weight: normal}
+	</style>
+</head>
+<body>
+	<table border="1"; cellspacing="0" cellpadding="3" style="border-collapse: collapse; border-color: silver"; />
+		<thead>
+			<tr bgcolor="#e6e6fa">
+				<td colspan="6">Drag a column header and drop it here to group by that column</td>
+			</tr>
+			<tr bgcolor="#e6e6fa">
+				<th>ProductID</th>
+				<th>Product name</th>
+				<th>Unit price</th>
+				<th>Quantity per unit</th>
+				<th>Units in stock</th>
+				<th>Discontinued</th>
+			</tr>
+			<tr bgcolor="#e6e6fa">
+				<td><input type="text" size="1"></td>
+				<td><input type="text" size="15"></td>
+				<td><input type="text" size="10"><img src="filter.png" alt="0"/></td>
+				<td><input type="text" size="10"></td>
+				<td><input type="text" size="10"><img src="filter.png" alt="0"/></td>
+				<td><input type="checkbox"><img src="filter.png" alt="0"/></td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Chai</td>
+				<td>&#36 18,00</td>
+				<td>10 boxes &#215 20 bags</td>
+				<td>39</td>
+				<td><input type="checkbox"></td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Chang</td>
+				<td>&#36 19,00</td>
+				<td>24 - 12 oz bottles</td>
+				<td>17</td>
+				<td><input type="checkbox"></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Aniseed Syrup</td>
+				<td>&#36 10,00</td>
+				<td>12 - 550 ml bottles</td>
+				<td>13</td>
+				<td><input type="checkbox"></td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Chef Anton's Cajun Seasoning</td>
+				<td>&#36 22,00</td>
+				<td>48 - 6 oz jars</td>
+				<td>53</td>
+				<td><input type="checkbox"></td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Chef Anton's Gumbo Mix</td>
+				<td>&#36 21,35</td>
+				<td>36 boxes</td>
+				<td>0</td>
+				<td><input type="checkbox"
+						   checked="checked">
+				</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>Grandma's Boysenberry Spread</td>
+				<td>&#36 25,00</td>
+				<td>12 - 8 oz jars</td>
+				<td>120</td>
+				<td><input type="checkbox"></td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>Uncle Bob's Organic Dried Pears</td>
+				<td>&#36 30,00</td>
+				<td>12 - 1 lb pkds.</td>
+				<td>15</td>
+				<td><input type="checkbox"></td>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td>Northwoods Cranberry Sauce</td>
+				<td>&#36 40,00</td>
+				<td>12 -12 oz jars</td>
+				<td>6</td>
+				<td><input type="checkbox"></td>
+			</tr>
+			<tr>
+				<td>9</td>
+				<td>Mishi Kobe Niku</td>
+				<td>&#36 97,00</td>
+				<td>18 - 500 g pkgs.</td>
+				<td>29</td>
+				<td><input type="checkbox"
+						   checked="checked">
+				</td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td>Ikura</td>
+				<td>&#36 31,00</td>
+				<td>12 - 200 ml jars</td>
+				<td>31</td>
+				<td><input type="checkbox"></td>
+			</tr>
+		</tbody>	
+		<tfoot>
+		<tr>
+			<td colspan="6" bgcolor="#e6e6fa">			
+				<img src="left_arrow.png" alt="0"/>
+				<img src="left.png" alt="0"/>
+				<span style="border: 1px solid red; padding: 0px 3px">1</span>
+				<span>1</span>
+				<span>2</span>
+				<span>3</span>
+				<span>4</span>
+				<span>5</span>
+				<span>6</span>
+				<span>7</span>
+				<span>8</span>
+				<span>9</span>
+				<span>10</span>
+			    <span>...</span>
+				<img src="right.png" alt="0"/>
+				<img src="right_arrow.png" alt="0"/>			
+				<select name="ChooseOne">
+					<option value="1">10</option>
+					<option value="2">9</option>
+					<option value="1">8</option>
+					<option value="1">7</option>
+					<option value="1">6</option>
+					<option value="1">8</option>
+					<option value="1">4</option>
+					<option value="1">3</option>
+					<option value="1">2</option>
+					<option value="1">1</option>
+				</select>
+			    <span style="float: right">335104 items in 33511 pages</span>
+			</td>
+		</tr>
+		</tfoot>
+</body>
+</html>

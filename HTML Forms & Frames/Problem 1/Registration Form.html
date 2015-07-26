@@ -1,0 +1,86 @@
+<!--HW Definition - https://github.com/TelerikAcademy/HTML/tree/master/5.%20HTML%20Forms%20and%20Frames -->
+
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Notebook store</title>
+</head>
+<body>
+	<form>
+		<table border="1" style="border-collapse:collapse" cellpadding="1" cellspacing="0" >
+			<tr>
+				<td align="center"><b>Last Name</b></td>
+				<td><input type="text" size="30"></td>
+			</tr>
+			<tr>
+				<td align="center"><b>First Name</b></td>
+				<td><input type="text" size="30"></td>
+			</tr>
+			<tr>
+				<td align="center"><b>Address</b></td>
+				<td><textarea name="Address" cols="30" rows="5"></textarea></td>
+			</tr>
+			<tr>
+				<td align="center"><b>City</b></td>
+				<td><input type="text" size="20"> State <input type="text" size="5"</td>
+			</tr>
+			<tr>
+				<td align="center"><b>Zip/Postal Code</b></td>
+				<td><input type="text"
+						   size="10">
+				</td>
+			</tr>
+			<tr>
+				<td align="center"><b>Country</b></td>
+				<td><select name="ChooseOne">
+						<option value="Bulgaria" selected="selected">Bulgaria</option>
+						<option value="Croatia">Croatia</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="center"><b>Phone(country code,</br>
+					   area code, number)</b></td>
+				<td>(+<input type="text" size="5">)
+					  <input type="text" size="5">
+					  <input type="text" size="10">
+				</td>
+			</tr>
+			<tr>
+				<td align="center"><b>E-mail</b></td>
+				<td><input name="Email" size="30"></td>
+			</tr>
+			<tr>
+				<td align="center"><b>Birth date</b></td>
+				<td><input type="text" name="Comentar" value="дд.мм.гггг г."/></td>
+			</tr>
+			<tr>
+				<td align="center"><b>Gender</b></td>
+				<td><select name="ChooseOne">
+						<option value="Male" selected="selected">Male</option>
+						<option value="Female">Female</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="center"><b>Starting date</b></td>
+				<td><input type="radio" 
+						   name="OneChoice"/>Spring 2015
+					<input type="radio"
+						   name="OneChoice">Summer 2015
+				</td>
+			</tr>
+			<tr>
+				<td align="center"><b>Comments/Questions</b></td>
+				<td><textarea name="Comments/Questions" cols="30" rows="8"></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center" bgcolor="#87cefa"><input type="Submit" align="center"/>
+									           <input type="Reset" value="Clean This Form"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
